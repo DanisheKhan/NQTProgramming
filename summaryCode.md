@@ -56,3 +56,28 @@ class Solution {
     }
 }
   
+//  Ramove Duplicate Sorted Array
+class Solution {
+    ArrayList<Integer> removeDuplicates(int[] arr) {
+        ArrayList<Integer> list=new ArrayList<>();
+       for (int i = 0; i < arr.length; i++) {
+            if (i==0 || arr[i]!=arr[i-1] ) {
+                list.add(arr[i]);
+            }
+        }
+        return list;
+    }
+}
+
+// Check if array is sorted
+class Solution {
+    public boolean isSorted(int[] arr) {
+        for(int i=0; i<arr.length-1; i++){
+            if(arr[i]>arr[i+1]){
+                return false;
+            }
+        };
+        return true;
+        
+    };
+};
