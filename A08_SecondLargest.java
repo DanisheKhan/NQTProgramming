@@ -12,7 +12,7 @@ public class A08_SecondLargest {
       }
     }
 
-    return secondLargest;
+    return secondLargest; 
   }
 
   public static void main(String[] args) {
