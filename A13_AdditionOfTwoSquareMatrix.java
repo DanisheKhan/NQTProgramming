@@ -18,7 +18,8 @@ public class A13_AdditionOfTwoSquareMatrix {
   }
 
   public static void main(String[] args) {
-    A13_AdditionOfTwoSquareMatrix solution = new A13_AdditionOfTwoSquareMatrix();
+    A13_AdditionOfTwoSquareMatrix solution = new A13_AdditionOfTwoSquareMatrix(); 
+    
 
     // Test Case 1: 2x2 Matrix
     System.out.println("Test Case 1: 2x2 Matrix");
